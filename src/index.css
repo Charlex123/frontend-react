@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.crude_btns {
+  display: flex;flex-direction: row;justify-content: space-between;margin: 1rem auto;flex-wrap: wrap;
+}
+.crude_btns button {
+  width: 40%;font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.crude_btns2 {
+  width: 100%;font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.crude_btns2 button {
+  width: 100%;font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.crude_btns2 a {
+  width: 100%;font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-center {
+  text-align: center !important;
+}
+.cont_ainer {
+  margin: 2rem auto;padding: 1rem 1rem;
+}
+.cont_ainer.addnewservice {
+  background-color: rgba(251, 251, 251, 1);
+}
+.cont_ainer.popup {
+  background-color: rgb(198, 221, 226);
+}
+.cont_ainer input[type="submit"] {
+  font-weight: 600;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conta_v {
+  width: 60%;margin: 2rem auto;
+}
+@media (max-width: 991px) {
+  .conta_v {
+    width: 98%;margin: 2rem auto;
+  }
+}
